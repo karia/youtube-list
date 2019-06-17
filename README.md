@@ -3,7 +3,7 @@
 ## install
 
 ```bash
-git clone 
+git clone https://github.com/karia/youtube-list
 cd youtube-list
 bundle install --path vendor/bundle
 ```
