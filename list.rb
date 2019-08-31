@@ -8,4 +8,5 @@ item = Yt::Playlist.new(id: channel_id).playlist_items
 item.each do |i|
   puts "- https://www.youtube.com/watch?v=#{i.video_id}"
   puts "-- #{i.title} (#{i.published_at.getlocal.strftime('%Y/%m/%d')}公開)"
+  puts "-- 再生数: #{i.video.view_count}"
 end
